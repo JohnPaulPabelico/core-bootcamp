@@ -55,7 +55,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900">
-      <h1 className="text-3xl font-bold mb-4">Counter DApp</h1>
+      <h1 className="text-3xl font-bold mb-4">NFT Minting DApp</h1>
       {account ? (
         <p className="mb-2">Connected Account: {account}</p>
       ) : (
@@ -69,9 +69,9 @@ export default function Home() {
       <div className="space-x-4">
         <button
           onClick={mint}
-          className="px-4 py-2 bg-green-500 text-white rounded"
+          className="mt-5 px-4 py-2 bg-green-500 text-white rounded"
         >
-          +
+          Mint NFT
         </button>
       </div>
     </div>
